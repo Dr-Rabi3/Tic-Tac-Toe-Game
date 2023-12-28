@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.parent {
+  font-family: "Lobster", sans-serif;
+  position: absolute;
+  background-color: #000000d6;
+  width: 40%;
+  height: 70%;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+  justify-content: space-around;
+  text-align: center;
+}
+
+.player-x label,
+.player-o label,
+.timer label {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+.player-x input,
+.player-o input {
+  border: none;
+  outline: none;
+  height: 2rem;
+  width: 18rem;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+.timer input {
+  border: none;
+  outline: none;
+  width: 5rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.parent button {
+  width: 5rem;
+  margin: 0 auto;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #302f2f;
+  border: none;
+  cursor: pointer;
+}

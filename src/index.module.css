@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../image/pk1.jpg);
+  background-size: cover;
+  color: #fff;
+  /* text-align: center; */
+}
+
+.parent {
+  padding: 2rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color:#98030f;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 20px inset #4b4a4a;
+}
+
+.control{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn{
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  background-color:#e37a7a;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 4px inset #98030f;
+} 
+
+
+.win{
+  text-align: center;
+  font-size: 20px;
+  margin: 3rem;
+  font-family: 'Lobster', sans-serif;
+  letter-spacing: 2px;
+}
